@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Bravery Network Online Team Randomizer</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <h1>Bravery Network Online Team Randomizer</h1>
+        <p>This tool lets you make a randomized BNO team to play. Your fighters will be random, 
+            as well as their traits, necklaces, focus, and moves. 
+            <br/>
+            If you're familiar with Challenge Cup or Random Battles on Pokemon simulators, it's similar to that.
+            <br/>
+            You can copy the text output and import it in the team builder.
+            <br/><br/>
+            Due to the nature of the confidence system, you might not be able to use the fighters
+            as this tool gives them to you. You might need to change the fighter in the teambuilder so that
+            you can actually use them. It might not be fully random but hopefully the randomizer can give you
+            a good base to have some fun with.</p>
+
+        <p>Options:</p>
+        <form action="BNOTeam.php" method="GET" id="form1">
+            <input type="checkbox" name="oneAttack"> One Attack: This guarantees that all fighters have at least one attacking move.
+            <br/>
+            <input type="checkbox" name="smartFocus"> Smart Focus: This guarantees that fighters don't have any wasted focus (e.g. PATK focus with no physical attacks).
+            <br/>
+        </form>
+        
+        <button class="button" form="form1" type="submit" value="Randomize">Randomize!</button>
+
+        <br/><br/>
+        <p>Page made by @Waasiq</p>
+    </body>
+</html>
