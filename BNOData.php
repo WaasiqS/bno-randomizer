@@ -11,11 +11,11 @@
     /* fighters array
     First Index is for each fighter
     Second index:
-        0: fighter name
-        1: style 1
-        2: style 2
-        3: trait 1
-        4: trait 2
+        0: fighter name as string
+        1: style 1 ID number
+        2: style 2 ID number
+        3: trait 1 as string
+        4: trait 2 as string
     */
     $FIGHTERS[0][0] = "Annora";
     $FIGHTERS[0][1] = 8;
@@ -149,7 +149,7 @@
     /* Style array
     First index is for each style
     Second index:
-        0: style name
+        0: style name as string
         1: number of total moves in current build of game
         2: number of total attacks in current build of game
     */
@@ -207,8 +207,8 @@
     Second index:
         0: move name
         1: move type 
+    All attacks must be listed before any tricks
     */
-
     // admin moves
     $MOVES[0][0] = "Firewall";
     $MOVES[0][1] = "dig";
