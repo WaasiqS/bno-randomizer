@@ -13,11 +13,20 @@ h1 {
 
 p {
   margin-left: 20px;
-  margin-right: 980;
+  margin-right: 50%;
 }
 
 #form1 {
   margin-left: 40px;
+  margin-right: 45%;
+}
+
+#logo {
+  max-width: 17%;
+  height: auto;
+
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .team {
